@@ -52,8 +52,28 @@ main{
 }
 
 div#parte1{
+    height: 80vh;
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
     margin: 20px;
 }
+
+section#informacoes-gerais > p:not(:last-child){
+    border-bottom: 1px solid #555555;
+}
+
+section#informacoes-gerais > p{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+section#informacoes-gerais span{
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
 
 div#favoritos, div#jogador, div#time-atual, div#altura-peso{
     display: flex;
@@ -93,8 +113,6 @@ div#altura-peso > p > span{
     font-weight: bold;
     text-transform: uppercase;
 }
-
-div
 
 div#parte2{
    position:relative;
