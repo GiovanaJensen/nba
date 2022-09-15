@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap');
+
+*{
+    margin:0;
+    padding: 0;
+}
+
+body{
+    background-color: #E1E3E6;
+    font-family: "Opens Sans",Verdana, sans-serif;
+    height: 100vh;
+}
+
+nav{
+    background-color: #FDFEFE;
+}
+
+ul{
+    padding: 0.5rem;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+ul li a{
+    padding: 0.5rem;
+    color: #656E79;
+    text-decoration:none;
+}
+
+ul li a:hover{
+    background-color: #748fc6;
+    color: #FDFEFE;
+    transition:0.5s;
+    border-radius: 20px;
+}
+
+[src="imgs/logo.png"]{
+    height: 27px;
+    width: 75px;
+}
+
+[src="imgs/perfil.png"]{
+    height: 30px;
+    width: 30px;
+}
+
+main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+div#parte1{
+    margin: 20px;
+}
+
+div#favoritos, div#jogador, div#time-atual, div#altura-peso{
+    display: flex;
+    align-items:center;
+}
+
+div#favoritos > img{
+    margin-right: 10px;
+    padding: 5px;
+    background-color: #D4D5D5;
+    border-radius: 50%;
+}
+
+div#favoritos > img:hover{
+    background-color: #178ACC;
+    transition: 500ms;
+}
+
+div#jogador {
+    margin-top: 20px;
+}
+
+div#jogador > h2{
+    font-size: 60px;
+}
+
+div#time-atual > p > abbr{
+    text-decoration: none;
+}
+
+div#altura-peso > p{
+    margin: 10px;
+    font-style: italic;
+}
+
+div#altura-peso > p > span{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+div
+
+div#parte2{
+   position:relative;
+}
+
+div#parte2 h1 {
+    font-size: 100px;
+    background: -webkit-linear-gradient(#ffffff, #e2e2e2);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+div#parte2 > img{
+    height: 560px;
+    width: 541.18px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+div#parte2 > h2 {
+    font-size: 90px;
+    color: #C9102C;
+    position: absolute;
+    top: 15;
+    left: 0;
+}
+
+div#parte2 > h3{
+    font-size: 30px;
+    color: #C9102C;
+    position: absolute;
+    top: 10;
+    right: 0;
+}
