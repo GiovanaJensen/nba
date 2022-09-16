@@ -118,6 +118,14 @@ div#parte2{
    position:relative;
 }
 
+div#parte2 > section{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
 div#parte2 h1 {
     font-size: 100px;
     background: -webkit-linear-gradient(#ffffff, #e2e2e2);
@@ -149,21 +157,16 @@ div#parte2 > h3{
     right: 0;
 }
 
-div#parte2 > section > div#card1{
-    right: 15;
-}
-div#parte2 > section > div#card3{
-    left: 15;
-}
-
 div#parte2 .card{
-    position:absolute;
     text-align:center;
     height: 100px;
-    bottom: 0;
     background-color: #184088;
     color: #f5f5f5;
     border-radius: 10%;
+}
+
+div#parte2 .card:nth-child(2){
+    background-color: #071729;
 }
 
 div#parte2 .card h5{
